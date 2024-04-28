@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
 // import Reporting from './components/Pages/Reporting';
-import Interactivemap from './components/Pages/Interactivemap';
+// import Interactivemap from './components/Pages/Interactivemap';
 // import Predictive from './components/Pages/Predictive';
 // import Adfeatue from './components/Pages/Adfeatue';
 import Dashboard from './components/Pages/Dashboard';
