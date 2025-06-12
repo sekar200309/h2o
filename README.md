@@ -36,20 +36,19 @@ An IoT-based pipeline water management system for real-time monitoring, analytic
 
 ### Water Flow Rate Visualization
 
-![image1](image1)
+<img src="https://github.com/user-attachments/assets/e5df76f0-5136-4281-8aa4-d5cec8f52ee8" alt="Water Flow Rate Visualization" width="600">
 
 ### Flow Sensor Data Table
 
-![image2](image2)
+<img src="https://github.com/user-attachments/assets/7e17c074-cce1-406b-99f0-9f00975f2be6" alt="Flow Sensor Data Table" width="600">
 
 ### Maintenance & Reporting Module
 
-![image3](image3)
+<img src="https://github.com/user-attachments/assets/5c033449-4bec-439b-aac5-e830af7071e8" alt="Maintenance & Reporting Module" width="600">
 
 ### Analytics & Interactive Map
 
-![image4](image4)
-
+<img src="https://github.com/user-attachments/assets/d5c05b45-0451-437e-b813-5fc722b8f123" alt="Analytics & Interactive Map" width="600">
 ---
 
 ## ⚙️ Technologies Used
