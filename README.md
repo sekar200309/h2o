@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# WATER MANAGEMENT NETWORK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An IoT-based pipeline water management system for real-time monitoring, analytics, and alerting. This project integrates hardware sensors (with embedded C on ESP32), GSM-based SMS alerts, and a React+Firebase web dashboard for efficient water resource oversight.
 
-## Available Scripts
+## 🌐 Project Links
 
-In the project directory, you can run:
+- **Live Demo:** [https://wmnetwork.vercel.app/](https://wmnetwork.vercel.app/)
+- **Repository:** [GitHub Repository](https://github.com/sekar200309/h2o.git)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💡 Project Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Monitors water levels, pH, and pipeline conditions** using ESP32 microcontrollers, flow and pH sensors.
+- **Web dashboard** built with ReactJS and Firebase for real-time data visualization, recording, and analytics.
+- **GSM module** for SMS alerts on leaks and pipeline breakages.
+- **Reliable data flow:** Embedded C firmware ensures robust sensor connectivity and data transmission.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🖥️ Key Features
 
-### `npm run build`
+- **Embedded C on ESP32:** Handles sensor interfacing, real-time measurement, and GSM-based SMS alerts.
+- **IoT Sensors:** Flow sensors and pH sensors deployed in pipeline network.
+- **Realtime Database:** Uses Firebase for storing and syncing live sensor data.
+- **ReactJS Dashboard:** Modern UI for live monitoring, analytics, mapping, and reporting.
+- **Advanced Analytics:** Graphs, charts, and tables for water usage and quality.
+- **Alerting:** Automated SMS notifications for abnormal events.
+- **Data Download:** Export logs and reports for offline analysis.
+- **Maintenance & Reporting:** Predictive maintenance tools and reporting modules.
+- **Interactive Mapping:** Visualize pipeline networks and sensor locations on real maps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Water Flow Rate Visualization
 
-### `npm run eject`
+![image1](image1)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Flow Sensor Data Table
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image2](image2)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Maintenance & Reporting Module
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image3](image3)
 
-## Learn More
+### Analytics & Interactive Map
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image4](image4)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ⚙️ Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Hardware:** ESP32 microcontroller, GSM module, flow sensors, pH sensors
+- **Firmware:** Embedded C (for ESP32 sensor data acquisition and GSM SMS)
+- **Realtime Database:** Firebase
+- **Frontend:** ReactJS, HTML5, CSS3, JavaScript
+- **Visualization:** CanvasJS, Google Charts, Leaflet.js (for mapping)
+- **Alerts:** SMS via GSM module
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Getting Started
 
-### Making a Progressive Web App
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sekar200309/h2o.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd h2o
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Start the React app:**
+   ```bash
+   npm start
+   ```
+5. **Open the dashboard:**
+   - Visit `http://localhost:3000` in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📊 System Architecture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+IoT sensors (flow, pH) → ESP32 (Embedded C) → GSM module (SMS alerts) + Firebase (Realtime data) → ReactJS dashboard → Analytics, alerts, and reporting
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🙏 Credits
 
-### `npm run build` fails to minify
+- Developed by **Tech Titans**
+- Inspired by the need for smart, data-driven water management solutions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📄 License
+
+This project is for educational and research purposes only.
+
+---
+
+Feel free to open issues or contribute to improve the system!
